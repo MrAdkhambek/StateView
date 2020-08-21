@@ -5,11 +5,20 @@
             android:id="@+id/stateView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:contentResource="@layout/layout_content_main"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:contentResource="@layout/layout_content_main" />
+```
+
+```xml
+
+    <!--  another custom layouts -->
+    <resources>
+        <declare-styleable name="StateView">
+            <attr name="emptyResource" format="reference" />
+            <attr name="errorResource" format="reference" />
+            <attr name="contentResource" format="reference" />
+            <attr name="loadingResource" format="reference" />
+        </declare-styleable>
+    </resources>
 ```
 
 ```kotlin
