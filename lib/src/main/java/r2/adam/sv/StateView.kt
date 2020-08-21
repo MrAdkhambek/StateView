@@ -79,15 +79,3 @@ class StateView @JvmOverloads constructor(
         )
     }
 }
-
-private interface ViewFactory {
-    fun makeView(state: State): View
-}
-
-enum class State {
-    LOADING,
-    CONTENT,
-    EMPTY,
-    ERROR
-}
-
