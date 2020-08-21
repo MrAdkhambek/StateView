@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StateView</string>
+    <string name="content">Content</string>
+    <string name="loading">Loading</string>
+    <string name="error">error</string>
+    <string name="empty">empty</string>
+</resources>
