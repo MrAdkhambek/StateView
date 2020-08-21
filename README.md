@@ -11,7 +11,7 @@
 ```
 ```gradle
 	dependencies {
-	        implementation 'com.github.MrAdkhambek:StateView:0.1.0-alpha02'
+	        implementation 'com.github.MrAdkhambek:StateView:x.y.z'
 	}
 ```
 
