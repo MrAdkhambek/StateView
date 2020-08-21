@@ -25,5 +25,5 @@
 ```
 
 
-![Image](media/img1.jpg)
-![Image](media/img2.jpg)
+![Image](media/img1.png)
+![Image](media/img2.png)
