@@ -36,3 +36,4 @@
 
 ![Image](media/img1.png)
 ![Image](media/img2.png)
+![Image](media/anim.gif)
