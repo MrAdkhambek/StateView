@@ -1,4 +1,20 @@
 # StateView
+[![](https://jitpack.io/v/MrAdkhambek/StateView.svg)](https://jitpack.io/#MrAdkhambek/StateView)
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+```gradle
+	dependencies {
+	        implementation 'com.github.MrAdkhambek:StateView:0.1.0-alpha02'
+	}
+```
+
 ```xml
     <!--    your custom layout file @layout/layout_content_main -->
     <r2.adam.sv.StateView
